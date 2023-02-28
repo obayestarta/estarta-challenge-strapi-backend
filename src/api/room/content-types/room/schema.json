@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "start_status": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "end_status": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}
